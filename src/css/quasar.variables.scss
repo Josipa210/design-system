@@ -1,25 +1,58 @@
-// Quasar SCSS (& Sass) Variables
-// --------------------------------------------------
-// To customize the look and feel of this app, you can override
-// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+// 🎨 Design Tokens
 
-// Check documentation for full list of Quasar variables
+// Color System
+$primary: #6750a4;
+$on-primary: #ffffff;
+$secondary: #03dac6;
+$on-secondary: #000000;
+$background: #fef7ff;
+$on-background: #1c1b1f;
+$surface: #ffffff;
+$on-surface: #1c1b1f;
+$error: #b00020;
 
-// Your own variables (that are declared here) and Quasar's own
-// ones will be available out of the box in your .vue/.scss/.sass files
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
 
-// It's highly recommended to change the default colors
-// to match your app's branding.
-// Tip: Use the "Theme Builder" on Quasar's documentation website.
+// Typography
+$font-family-base: 'Roboto', sans-serif;
+$font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-lg: 20px;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
 
-$primary: #1976d2;
-$secondary: #26a69a;
-$accent: #9c27b0;
+// Border radius
+$radius-sm: 6px;
+$radius-md: 12px;
+$radius-lg: 20px;
 
-$dark: #1d1d1d;
-$dark-page: #121212;
+// Elevation (shadows)
+$elevation-1: 0 1px 3px rgba(0,0,0,0.12);
+$elevation-2: 0 3px 6px rgba(0,0,0,0.16);
 
-$positive: #21ba45;
-$negative: #c10015;
-$info: #31ccec;
-$warning: #f2c037;
+// Light mode
+$surface-light: #ffffff;
+$on-surface-light: #1c1b1f;
+$background-light: #fef7ff;
+
+// Dark mode
+$surface-dark: #1c1b1f;
+$on-surface-dark: #fef7ff;
+$background-dark: #121212;
+:root {
+  --surface: #{$surface-light};
+  --on-surface: #{$on-surface-light};
+  --background: #{$background-light};
+}
+
+.body--dark {
+  --surface: #{$surface-dark};
+  --on-surface: #{$on-surface-dark};
+  --background: #{$background-dark};
+}

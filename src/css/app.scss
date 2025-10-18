@@ -1,1 +1,12 @@
 // app global css in SCSS form
+:root {
+  --q-primary: #6750a4;
+  --q-secondary: #03dac6;
+  --q-background: #f9f9fb;
+  --q-surface: #ffffff;
+  --q-on-surface: #1c1b1f;
+  --q-radius: 12px;
+}
+.q-dark{
+    background: var(--q-on-surface);
+}
