@@ -8,17 +8,9 @@ All components are **theme-aware** and fully responsive.
 ---
 
 ## Table of Contents
-1. [Installation](#installation)  
-2. [Usage](#usage)  
-3. [Components](#components)  
-   - [Buttons](#buttons)  
-   - [Cards](#cards)  
-   - [Inputs](#inputs)  
-   - [Badges](#badges)  
-   - [Typography](#typography)  
-   - [Colors](#colors)  
-   - [Spacing](#spacing)  
-4. [Theme & Dark Mode](#theme--dark-mode)  
+1. [Installation]
+2. [Usage] 
+3. [Screenshots]
 
 
 
