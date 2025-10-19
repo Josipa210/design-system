@@ -7,16 +7,6 @@ All components are **theme-aware** and fully responsive.
 
 ---
 
-## Table of Contents
-1. [Installation]
-2. [Usage] 
-3. [Screenshots]
-
-
-
----
-
-
 Install Quasar (if not already) and your design system:
 
 ```bash
