@@ -8,6 +8,9 @@
       <q-tab name="docs-cards" label="Cards" :to="{ name: 'docs-cards' }" />
       <q-tab name="docs-inputs" label="Inputs" :to="{ name: 'docs-inputs' }" />
       <q-tab name="docs-badges" label="Badges" :to="{ name: 'docs-badges' }" />
+       <q-tab name="docs-colors" label="Colors" :to="{ name: 'docs-colors' }" />
+            <q-tab name="docs-spacing" label="Spacing" :to="{ name: 'docs-spacing' }" />
+            <!-- <q-tab name="docs-typography" label="Typography" :to="{ name: 'docs-typography' }" /> -->
     <q-toggle v-model="isDark" label="Dark Mode" @update:model-value="toggleTheme" dense />
     </q-tabs>
 

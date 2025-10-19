@@ -1,7 +1,7 @@
 <template>
     <q-page padding>
   <div class="column q-gutter-md">
-    <h4>Typography</h4>
+    <h4 class="q-mb-none">Typography</h4>
     <p class="text-h1">Heading 1</p>
     <p class="text-h2">Heading 2</p>
     <p class="text-h3">Heading 3</p>

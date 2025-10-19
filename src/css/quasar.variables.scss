@@ -1,14 +1,14 @@
 // 🎨 Design Tokens
 
 // Color System
-$primary: #6750a4;
+$primary: #4c7f7a;
 $on-primary: #ffffff;
-$secondary: #03dac6;
-$on-secondary: #000000;
+$secondary: #5a7e96;
+$on-secondary: #202c2bff;
 $background: #fef7ff;
-$on-background: #1c1b1f;
+$on-background: #202c2bff;
 $surface: #ffffff;
-$on-surface: #1c1b1f;
+$on-surface: #202c2bff;
 $error: #b00020;
 
 // Spacing
@@ -33,18 +33,19 @@ $radius-md: 12px;
 $radius-lg: 20px;
 
 // Elevation (shadows)
-$elevation-1: 0 1px 3px rgba(0,0,0,0.12);
-$elevation-2: 0 3px 6px rgba(0,0,0,0.16);
+$elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12);
+$elevation-2: 0 3px 6px rgba(0, 0, 0, 0.16);
 
 // Light mode
 $surface-light: #ffffff;
-$on-surface-light: #1c1b1f;
+$on-surface-light: #202c2bff;
 $background-light: #fef7ff;
 
 // Dark mode
-$surface-dark: #1c1b1f;
+$surface-dark: #202c2bff;
 $on-surface-dark: #fef7ff;
-$background-dark: #121212;
+$background-dark: #202c2bff;
+
 :root {
   --surface: #{$surface-light};
   --on-surface: #{$on-surface-light};

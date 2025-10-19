@@ -1,12 +1,19 @@
 // app global css in SCSS form
 :root {
-  --q-primary: #6750a4;
-  --q-secondary: #03dac6;
+  --q-primary: #4c7f7a;
+  --q-secondary: #5a7e96;
   --q-background: #f9f9fb;
   --q-surface: #ffffff;
-  --q-on-surface: #1c1b1f;
+  --q-on-surface: #202c2bff;
   --q-radius: 12px;
 }
-.q-dark{
-    background: var(--q-on-surface);
+
+.q-dark {
+  background: var(--q-on-surface);
 }
+
+.row .col-12 {
+  padding: 6px;
+}
+
+// Dark mode
